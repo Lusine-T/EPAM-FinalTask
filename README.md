@@ -47,14 +47,3 @@ The goal of this project is to implement an automated test suite covering the fo
 *   `EcommerceTests.Builders`: Contains builder patterns (e.g., `UserBuilder`).
 *   `EcommerceTests.PageObjects`: Contains Page Object models for web pages (e.g., `LoginPage`, `ProductsPage`, `FavoritesPage`).
 *   `EcommerceTests.Tests`: Contains the actual test cases (e.g., `LoginTests`, `ProductsPageTest`).
-
-## How to Run Tests
-
-1.  **Restore NuGet packages:**
-    ```bash
-    dotnet restore
-    ```
-2.  **Run tests:**
-    ```bash
-    dotnet test
-    ```
