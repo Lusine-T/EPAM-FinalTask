@@ -1,12 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using EcommerceTests.Core;
 using EcommerceTests.PageObjects;
 using FluentAssertions;
-using Xunit;
+
 
 namespace EcommerceTests.Tests
 {

@@ -1,10 +1,6 @@
 using System.Globalization;
-using System;
-using System.Linq;
-using System.Collections.Generic;
 using OpenQA.Selenium;
 using EcommerceTests.Core;
-using OpenQA.Selenium.Support.UI;
 
 namespace EcommerceTests.PageObjects
 {

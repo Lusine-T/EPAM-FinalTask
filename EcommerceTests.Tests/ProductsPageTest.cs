@@ -7,10 +7,11 @@ namespace EcommerceTests.Tests
 {
     public class ProductsPageTest: BaseTest 
     {
-        [Fact]       
-        public void AddToFavoritesTest()
+        [Theory]
+        [MemberData(nameof(Browsers))]
+        public void AddToFavoritesTest(string browser)
         {
-            Setup("chrome");
+            Setup(browser);
             LogHelper.Info($"[NEGATIVE] Login attempt: ");
 
             var user = new UserBuilder()

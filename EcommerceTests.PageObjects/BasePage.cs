@@ -1,9 +1,7 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using SeleniumExtras.WaitHelpers;
-using System;
 using EcommerceTests.Core;
-using log4net.Repository.Hierarchy;
 
 namespace EcommerceTests.PageObjects
 {

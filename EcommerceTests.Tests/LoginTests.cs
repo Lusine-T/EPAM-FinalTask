@@ -2,7 +2,6 @@ using EcommerceTests.Builders;
 using EcommerceTests.Core;
 using EcommerceTests.PageObjects;
 using FluentAssertions;
-using Xunit;
 
 namespace EcommerceTests.Tests
 {
